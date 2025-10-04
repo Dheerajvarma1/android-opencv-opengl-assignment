@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/gradient_bg">
+
+    <Button
+        android:id="@+id/edgeDetectionBtn"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="25dp"
+        android:text="Edge Detection"
+        android:textSize="18sp"
+        android:backgroundTint="#000000"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:elevation="6dp" />
+
+    <Button
+        android:id="@+id/colorSegmentationBtn"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:text="Color Segmentation"
+        android:textSize="18sp"
+        android:backgroundTint="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:elevation="6dp" />
+</LinearLayout>
