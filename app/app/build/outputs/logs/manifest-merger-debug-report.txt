@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:2:1-31:12
 MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\ASUS\.gradle\caches\transforms-4\64abc64c3079544fe029486759198ea8\transformed\jetified-viewbinding-8.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\ASUS\.gradle\caches\transforms-4\518aff9b5455e450b373c9594763223e\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ASUS\.gradle\caches\transforms-4\6b233d9d4aa0ec43b2691cc95d25ea95\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -48,32 +48,38 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-4\e44d1f519261216df532f8d22fb7c549\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-4\3cc5df5e11623a4b0fa1ec339df86d37\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 	package
-		INJECTED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.CAMERA
-ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:4:5-65
+ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:4:5-65
 	android:name
-		ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:4:22-62
+		ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:4:22-62
 uses-feature#android.hardware.camera
-ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:5:5-84
+ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:5:5-84
 	android:required
-		ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:5:58-81
+		ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:5:58-81
 	android:name
-		ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:5:19-57
+		ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:5:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:6:5-95
+ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:6:5-95
 	android:required
-		ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:6:68-92
+		ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:6:68-92
 	android:name
-		ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:6:19-67
+		ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:6:19-67
+uses-feature#0x00020000
+ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:7:5-78
+	android:glEsVersion
+		ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:7:19-51
+	android:required
+		ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:7:52-75
 application
-ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:8:5-23:19
-INJECTED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:8:5-23:19
+ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:9:5-29:19
+INJECTED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:9:5-29:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\ASUS\.gradle\caches\transforms-4\518aff9b5455e450b373c9594763223e\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\ASUS\.gradle\caches\transforms-4\518aff9b5455e450b373c9594763223e\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ASUS\.gradle\caches\transforms-4\6b233d9d4aa0ec43b2691cc95d25ea95\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -91,39 +97,47 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gr
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ASUS\.gradle\caches\transforms-4\81cba54d9898d4cfaa1906068ed54599\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ASUS\.gradle\caches\transforms-4\81cba54d9898d4cfaa1906068ed54599\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-4\566acc714c8179f607f6e5bc825559b8\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:10:9-39
+		ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:11:9-39
 	android:allowBackup
-		ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:12:9-65
-activity#com.edgedetection.MainActivity
-ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:14:9-22:20
+		ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:13:9-65
+activity#com.edgedetection.MainActivityFallback
+ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:15:9-23:20
 	android:screenOrientation
-		ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:17:13-49
+		ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:18:13-49
 	android:exported
-		ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:16:13-36
+		ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:15:13-41
+		ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:16:13-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:18:13-21:29
+ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:19:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.edgedetection.MainActivity
+ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:25:9-28:52
+	android:screenOrientation
+		ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:28:13-49
+	android:exported
+		ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml:26:13-41
 uses-sdk
-INJECTED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml
-INJECTED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml
+INJECTED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml
+INJECTED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\ASUS\.gradle\caches\transforms-4\64abc64c3079544fe029486759198ea8\transformed\jetified-viewbinding-8.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\ASUS\.gradle\caches\transforms-4\64abc64c3079544fe029486759198ea8\transformed\jetified-viewbinding-8.2.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\ASUS\.gradle\caches\transforms-4\518aff9b5455e450b373c9594763223e\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
@@ -211,9 +225,9 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\ASUS\.gradle\caches\transforms
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-4\3cc5df5e11623a4b0fa1ec339df86d37\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-4\3cc5df5e11623a4b0fa1ec339df86d37\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		INJECTED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Elden ring dlc\work\flam\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\AndroidManifest.xml
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-4\1f92642ae243f896e0e65bfb826cd016\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ASUS\.gradle\caches\transforms-4\16319bfea425ccb34cdee45574e85a2f\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20

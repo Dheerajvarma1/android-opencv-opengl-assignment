@@ -12,10 +12,10 @@ import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.edgedetection.R;
+import com.edgedetection.opengl.EdgeDetectionGLView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
-import org.opencv.android.JavaCameraView;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
@@ -28,7 +28,7 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView blurText;
 
   @NonNull
-  public final JavaCameraView cameraView;
+  public final EdgeDetectionGLView cameraView;
 
   @NonNull
   public final TextView fpsText;
@@ -46,9 +46,10 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView upperThresholdText;
 
   private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull SeekBar blurBar,
-      @NonNull TextView blurText, @NonNull JavaCameraView cameraView, @NonNull TextView fpsText,
-      @NonNull SeekBar lowerThresholdBar, @NonNull TextView lowerThresholdText,
-      @NonNull SeekBar upperThresholdBar, @NonNull TextView upperThresholdText) {
+      @NonNull TextView blurText, @NonNull EdgeDetectionGLView cameraView,
+      @NonNull TextView fpsText, @NonNull SeekBar lowerThresholdBar,
+      @NonNull TextView lowerThresholdText, @NonNull SeekBar upperThresholdBar,
+      @NonNull TextView upperThresholdText) {
     this.rootView = rootView;
     this.blurBar = blurBar;
     this.blurText = blurText;
@@ -100,7 +101,7 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       id = R.id.camera_view;
-      JavaCameraView cameraView = ViewBindings.findChildViewById(rootView, id);
+      EdgeDetectionGLView cameraView = ViewBindings.findChildViewById(rootView, id);
       if (cameraView == null) {
         break missingId;
       }

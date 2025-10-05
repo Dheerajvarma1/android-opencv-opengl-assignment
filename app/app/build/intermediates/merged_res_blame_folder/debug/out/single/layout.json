@@ -1,6 +1,18 @@
 [
     {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.edgedetection.app-mergeDebugResources-3:\\layout\\activity_main_fallback.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.edgedetection.app-main-6:\\layout\\activity_main_fallback.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.edgedetection.app-mergeDebugResources-3:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.edgedetection.app-main-6:\\layout\\activity_main.xml"
+    },
+    {
         "merged": "com.edgedetection.app-mergeDebugResources-3:/layout/activity_main.xml",
         "source": "com.edgedetection.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.edgedetection.app-mergeDebugResources-3:/layout/activity_main_fallback.xml",
+        "source": "com.edgedetection.app-main-6:/layout/activity_main_fallback.xml"
     }
 ]

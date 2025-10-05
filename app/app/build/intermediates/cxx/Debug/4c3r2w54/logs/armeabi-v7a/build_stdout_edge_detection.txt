@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\.cxx\Debug\4c3r2w54\armeabi-v7a'
+ninja: no work to do.

@@ -1,0 +1,363 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "C:/Elden ring dlc/clones/android-opencv-opengl-assignment/app/app/build/intermediates/cxx/Debug/4c3r2w54/obj/arm64-v8a/libedge_detection.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -fno-limit-debug-info  -fPIC"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "edge_detection_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/OpenCV-android-sdk/sdk/native/jni/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "C:/Users/ASUS/AppData/Local/Android/Sdk/ndk/29.0.14033849/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+			}
+		}
+	],
+	"id" : "edge_detection::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_calib3d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_core.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_dnn.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_features2d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_flann.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_gapi.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_highgui.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_imgcodecs.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_imgproc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_ml.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_objdetect.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_photo.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_stitching.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_video.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_videoio.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-landroid",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lc++_shared",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lGLESv2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lEGL",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libade.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_imgcodecs.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\liblibjpeg-turbo.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\liblibwebp.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\liblibpng.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\liblibtiff.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\liblibopenjp2.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-pthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libIlmImf.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-landroid -llog -lmediandk",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_dnn.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\liblibprotobuf.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-landroid",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_calib3d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_features2d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_flann.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_imgproc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_core.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libtbb.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lc",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lz",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libcpufeatures.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libittnotify.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libtegra_hal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libkleidicv_hal.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libkleidicv_thread.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libkleidicv.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "C:/Users/ASUS/AppData/Local/Android/Sdk/ndk/29.0.14033849/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+		}
+	},
+	"name" : "edge_detection",
+	"nameOnDisk" : "libedge_detection.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "edge_detection.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

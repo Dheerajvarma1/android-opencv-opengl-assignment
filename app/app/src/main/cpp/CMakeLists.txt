@@ -19,7 +19,9 @@ target_link_libraries(edge_detection
         ${OpenCV_LIBS}
         android
         log
-        c++_shared)
+        c++_shared
+        GLESv2
+        EGL)
 
 message(STATUS "OpenCV found: ${OpenCV_FOUND}")
 message(STATUS "OpenCV version: ${OpenCV_VERSION}")

@@ -1,0 +1,6 @@
+-- OpenCV found: 1
+-- OpenCV version: 4.12.0
+-- Building for ABI: arm64-v8a
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Elden ring dlc/clones/android-opencv-opengl-assignment/app/app/.cxx/Debug/4c3r2w54/arm64-v8a

@@ -8,9 +8,9 @@
     "triple": "aarch64-linux-android",
     "llvmTriple": "aarch64-none-linux-android"
   },
-  "cxxBuildFolder": "C:\\Elden ring dlc\\work\\flam\\app\\.cxx\\Debug\\4c3r2w54\\arm64-v8a",
-  "soFolder": "C:\\Elden ring dlc\\work\\flam\\app\\build\\intermediates\\cxx\\Debug\\4c3r2w54\\obj\\arm64-v8a",
-  "soRepublishFolder": "C:\\Elden ring dlc\\work\\flam\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a",
+  "cxxBuildFolder": "C:\\Elden ring dlc\\clones\\android-opencv-opengl-assignment\\app\\app\\.cxx\\Debug\\4c3r2w54\\arm64-v8a",
+  "soFolder": "C:\\Elden ring dlc\\clones\\android-opencv-opengl-assignment\\app\\app\\build\\intermediates\\cxx\\Debug\\4c3r2w54\\obj\\arm64-v8a",
+  "soRepublishFolder": "C:\\Elden ring dlc\\clones\\android-opencv-opengl-assignment\\app\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a",
   "abiPlatformVersion": 24,
   "cmake": {
     "effectiveConfiguration": {
@@ -35,13 +35,13 @@
     "implicitBuildTargetSet": [],
     "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
     "module": {
-      "cxxFolder": "C:\\Elden ring dlc\\work\\flam\\app\\.cxx",
-      "intermediatesBaseFolder": "C:\\Elden ring dlc\\work\\flam\\app\\build\\intermediates",
-      "intermediatesFolder": "C:\\Elden ring dlc\\work\\flam\\app\\build\\intermediates\\cxx",
+      "cxxFolder": "C:\\Elden ring dlc\\clones\\android-opencv-opengl-assignment\\app\\app\\.cxx",
+      "intermediatesBaseFolder": "C:\\Elden ring dlc\\clones\\android-opencv-opengl-assignment\\app\\app\\build\\intermediates",
+      "intermediatesFolder": "C:\\Elden ring dlc\\clones\\android-opencv-opengl-assignment\\app\\app\\build\\intermediates\\cxx",
       "gradleModulePathName": ":app",
-      "moduleRootFolder": "C:\\Elden ring dlc\\work\\flam\\app",
-      "moduleBuildFile": "C:\\Elden ring dlc\\work\\flam\\app\\build.gradle",
-      "makeFile": "C:\\Elden ring dlc\\work\\flam\\app\\src\\main\\cpp\\CMakeLists.txt",
+      "moduleRootFolder": "C:\\Elden ring dlc\\clones\\android-opencv-opengl-assignment\\app\\app",
+      "moduleBuildFile": "C:\\Elden ring dlc\\clones\\android-opencv-opengl-assignment\\app\\app\\build.gradle",
+      "makeFile": "C:\\Elden ring dlc\\clones\\android-opencv-opengl-assignment\\app\\app\\src\\main\\cpp\\CMakeLists.txt",
       "buildSystem": "CMAKE",
       "ndkFolder": "C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14033849",
       "ndkFolderBeforeSymLinking": "C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14033849",
@@ -152,7 +152,7 @@
         "SYSTEM": {}
       },
       "project": {
-        "rootBuildGradleFolder": "C:\\Elden ring dlc\\work\\flam",
+        "rootBuildGradleFolder": "C:\\Elden ring dlc\\clones\\android-opencv-opengl-assignment\\app",
         "sdkFolder": "C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk",
         "isBuildOnlyTargetAbiEnabled": true,
         "ideBuildTargetAbi": "arm64-v8a,armeabi-v7a,armeabi",
@@ -172,12 +172,12 @@
   "buildSettings": {
     "environmentVariables": []
   },
-  "prefabFolder": "C:\\Elden ring dlc\\work\\flam\\app\\.cxx\\Debug\\4c3r2w54\\prefab\\arm64-v8a",
+  "prefabFolder": "C:\\Elden ring dlc\\clones\\android-opencv-opengl-assignment\\app\\app\\.cxx\\Debug\\4c3r2w54\\prefab\\arm64-v8a",
   "isActiveAbi": true,
   "fullConfigurationHash": "4c3r2w542f471i4le6b6c16je4g30626y4vc1257231w5e5k67o636a1o5e",
   "fullConfigurationHashKey": "# Values used to calculate the hash in this folder name.\n# Should not depend on the absolute path of the project itself.\n#   - AGP: 8.2.0.\n#   - $NDK is the path to NDK 29.0.14033849.\n#   - $PROJECT is the path to the parent folder of the root Gradle build file.\n#   - $ABI is the ABI to be built with. The specific value doesn\u0027t contribute to the value of the hash.\n#   - $HASH is the hash value computed from this text.\n#   - $CMAKE is the path to CMake 3.22.1.\n#   - $NINJA is the path to Ninja.\n-H$PROJECT/app/src/main/cpp\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d24\n-DANDROID_PLATFORM\u003dandroid-24\n-DANDROID_ABI\u003d$ABI\n-DCMAKE_ANDROID_ARCH_ABI\u003d$ABI\n-DANDROID_NDK\u003d$NDK\n-DCMAKE_ANDROID_NDK\u003d$NDK\n-DCMAKE_TOOLCHAIN_FILE\u003d$NDK/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d$NINJA\n-DCMAKE_CXX_FLAGS\u003d-frtti -fexceptions\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d$PROJECT/app/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d$PROJECT/app/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_BUILD_TYPE\u003dDebug\n-B$PROJECT/app/.cxx/Debug/$HASH/$ABI\n-GNinja\n-DANDROID_STL\u003dc++_shared",
   "configurationArguments": [
-    "-HC:\\Elden ring dlc\\work\\flam\\app\\src\\main\\cpp",
+    "-HC:\\Elden ring dlc\\clones\\android-opencv-opengl-assignment\\app\\app\\src\\main\\cpp",
     "-DCMAKE_SYSTEM_NAME\u003dAndroid",
     "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
     "-DCMAKE_SYSTEM_VERSION\u003d24",
@@ -189,13 +189,13 @@
     "-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14033849\\build\\cmake\\android.toolchain.cmake",
     "-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
     "-DCMAKE_CXX_FLAGS\u003d-frtti -fexceptions",
-    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Elden ring dlc\\work\\flam\\app\\build\\intermediates\\cxx\\Debug\\4c3r2w54\\obj\\arm64-v8a",
-    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Elden ring dlc\\work\\flam\\app\\build\\intermediates\\cxx\\Debug\\4c3r2w54\\obj\\arm64-v8a",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Elden ring dlc\\clones\\android-opencv-opengl-assignment\\app\\app\\build\\intermediates\\cxx\\Debug\\4c3r2w54\\obj\\arm64-v8a",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Elden ring dlc\\clones\\android-opencv-opengl-assignment\\app\\app\\build\\intermediates\\cxx\\Debug\\4c3r2w54\\obj\\arm64-v8a",
     "-DCMAKE_BUILD_TYPE\u003dDebug",
-    "-BC:\\Elden ring dlc\\work\\flam\\app\\.cxx\\Debug\\4c3r2w54\\arm64-v8a",
+    "-BC:\\Elden ring dlc\\clones\\android-opencv-opengl-assignment\\app\\app\\.cxx\\Debug\\4c3r2w54\\arm64-v8a",
     "-GNinja",
     "-DANDROID_STL\u003dc++_shared"
   ],
   "stlLibraryFile": "C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.14033849\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
-  "intermediatesParentFolder": "C:\\Elden ring dlc\\work\\flam\\app\\build\\intermediates\\cxx\\Debug\\4c3r2w54"
+  "intermediatesParentFolder": "C:\\Elden ring dlc\\clones\\android-opencv-opengl-assignment\\app\\app\\build\\intermediates\\cxx\\Debug\\4c3r2w54"
 }

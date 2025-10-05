@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!-- Camera View (Fallback) -->
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <!-- Control Panel -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#CC000000">
+
+        <!-- FPS Display -->
+        <TextView
+            android:id="@+id/fps_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FPS: 0.0"
+            android:textColor="#00FF00"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Lower Threshold -->
+        <TextView
+            android:id="@+id/lower_threshold_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lower: 50"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp" />
+
+        <SeekBar
+            android:id="@+id/lower_threshold_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="255"
+            android:progress="50" />
+
+        <!-- Upper Threshold -->
+        <TextView
+            android:id="@+id/upper_threshold_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upper: 150"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp" />
+
+        <SeekBar
+            android:id="@+id/upper_threshold_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="255"
+            android:progress="150" />
+
+        <!-- Blur -->
+        <TextView
+            android:id="@+id/blur_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blur: 5"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp" />
+
+        <SeekBar
+            android:id="@+id/blur_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="15"
+            android:progress="5" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+

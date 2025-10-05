@@ -4,8 +4,8 @@
     android:layout_height="match_parent"
     android:background="#000000">
 
-    <!-- Camera View -->
-    <org.opencv.android.JavaCameraView
+    <!-- OpenGL ES Camera View -->
+    <com.edgedetection.opengl.EdgeDetectionGLView
         android:id="@+id/camera_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

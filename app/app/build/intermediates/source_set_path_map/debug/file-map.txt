@@ -1,10 +1,10 @@
-com.edgedetection.app-pngs-0 C:\Elden ring dlc\work\flam\app\build\generated\res\pngs\debug
-com.edgedetection.app-resValues-1 C:\Elden ring dlc\work\flam\app\build\generated\res\resValues\debug
-com.edgedetection.app-packageDebugResources-2 C:\Elden ring dlc\work\flam\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.edgedetection.app-packageDebugResources-3 C:\Elden ring dlc\work\flam\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.edgedetection.app-merged_res-4 C:\Elden ring dlc\work\flam\app\build\intermediates\merged_res\debug
-com.edgedetection.app-debug-5 C:\Elden ring dlc\work\flam\app\src\debug\res
-com.edgedetection.app-main-6 C:\Elden ring dlc\work\flam\app\src\main\res
+com.edgedetection.app-pngs-0 C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\build\generated\res\pngs\debug
+com.edgedetection.app-resValues-1 C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\build\generated\res\resValues\debug
+com.edgedetection.app-packageDebugResources-2 C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.edgedetection.app-packageDebugResources-3 C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.edgedetection.app-merged_res-4 C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\build\intermediates\merged_res\debug
+com.edgedetection.app-debug-5 C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\debug\res
+com.edgedetection.app-main-6 C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\src\main\res
 com.edgedetection.app-packaged_res-7 C:\OpenCV-android-sdk\sdk\build\intermediates\packaged_res\debug
 com.edgedetection.app-lifecycle-livedata-core-2.6.1-8 C:\Users\ASUS\.gradle\caches\transforms-4\0d380555147b80b51751cf6bd8828956\transformed\lifecycle-livedata-core-2.6.1\res
 com.edgedetection.app-drawerlayout-1.1.1-9 C:\Users\ASUS\.gradle\caches\transforms-4\114c27a2e74e421f982e62217c92aef5\transformed\drawerlayout-1.1.1\res

@@ -1,7 +1,5 @@
 # ninja log v5
-0	11	0	clean	21d7ad14f4b18ab6
-1	3156	7813997577100320	CMakeFiles/edge_detection.dir/edge_detection.cpp.o	67df00cf6fb077f1
-3168	4270	7813997588028081	C:/Elden ring dlc/work/flam/app/build/intermediates/cxx/Debug/4c3r2w54/obj/arm64-v8a/libedge_detection.so	c12fb5c1c4fadbd9
-0	11	0	clean	21d7ad14f4b18ab6
-13	2180	7814001623722465	CMakeFiles/edge_detection.dir/edge_detection.cpp.o	67df00cf6fb077f1
-2181	2671	7814001628593527	C:/Elden ring dlc/work/flam/app/build/intermediates/cxx/Debug/4c3r2w54/obj/arm64-v8a/libedge_detection.so	c12fb5c1c4fadbd9
+9	2346	7814051176810938	CMakeFiles/edge_detection.dir/edge_detection.cpp.o	5f1a51a08c54b93a
+2346	2878	7814051181995172	C:/Elden ring dlc/clones/android-opencv-opengl-assignment/app/app/build/intermediates/cxx/Debug/4c3r2w54/obj/arm64-v8a/libedge_detection.so	92308c0405cc33c5
+0	14	0	clean	21d7ad14f4b18ab6
+4	204	7814055373579718	build.ninja	6d1f6c92355cdf11

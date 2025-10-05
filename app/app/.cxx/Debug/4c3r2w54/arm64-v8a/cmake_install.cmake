@@ -1,4 +1,4 @@
-# Install script for directory: C:/Elden ring dlc/work/flam/app/src/main/cpp
+# Install script for directory: C:/Elden ring dlc/clones/android-opencv-opengl-assignment/app/app/src/main/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Elden ring dlc/work/flam/app/.cxx/Debug/4c3r2w54/arm64-v8a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Elden ring dlc/clones/android-opencv-opengl-assignment/app/app/.cxx/Debug/4c3r2w54/arm64-v8a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

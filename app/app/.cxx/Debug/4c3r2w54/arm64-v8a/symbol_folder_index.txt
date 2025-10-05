@@ -1,1 +1,1 @@
-C:\Elden ring dlc\work\flam\app\build\intermediates\cxx\Debug\4c3r2w54\obj\arm64-v8a
+C:\Elden ring dlc\clones\android-opencv-opengl-assignment\app\app\build\intermediates\cxx\Debug\4c3r2w54\obj\arm64-v8a

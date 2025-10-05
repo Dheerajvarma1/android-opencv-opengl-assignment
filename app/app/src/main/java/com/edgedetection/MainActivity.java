@@ -19,6 +19,8 @@ import org.opencv.android.CameraBridgeViewBase;
 import org.opencv.android.JavaCameraView;
 import org.opencv.core.Mat;
 
+import com.edgedetection.opengl.EdgeDetectionGLView;
+
 public class MainActivity extends AppCompatActivity implements CameraBridgeViewBase.CvCameraViewListener2 {
 
     private static final String TAG = "EdgeDetection";
@@ -34,7 +36,8 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
         }
     }
 
-    private JavaCameraView cameraView;
+    private EdgeDetectionGLView cameraView;
+    private JavaCameraView opencvCameraView;
     private SeekBar lowerThresholdBar;
     private SeekBar upperThresholdBar;
     private SeekBar blurBar;
@@ -72,9 +75,18 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
         blurText = findViewById(R.id.blur_text);
         fpsText = findViewById(R.id.fps_text);
 
-        // Set up camera view
-        cameraView.setVisibility(SurfaceView.VISIBLE);
-        cameraView.setCvCameraViewListener(this);
+        // Set up OpenCV camera view (hidden, used only for camera capture)
+        try {
+            opencvCameraView = new JavaCameraView(this, -1);
+            opencvCameraView.setVisibility(SurfaceView.VISIBLE);
+            opencvCameraView.setCvCameraViewListener(this);
+            
+            // Add OpenCV camera view to layout (invisible)
+            ((android.widget.RelativeLayout) findViewById(android.R.id.content)).addView(opencvCameraView, 0);
+        } catch (Exception e) {
+            Log.e(TAG, "Error setting up OpenCV camera view: " + e.getMessage(), e);
+            Toast.makeText(this, "Failed to initialize camera", Toast.LENGTH_LONG).show();
+        }
 
         // Set up seekbars
         setupSeekBars();
@@ -86,7 +98,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
                     new String[]{Manifest.permission.CAMERA}, 
                     CAMERA_PERMISSION_REQUEST);
         } else {
-            cameraView.setCameraPermissionGranted();
+            opencvCameraView.setCameraPermissionGranted();
         }
 
         // Check if native library loaded
@@ -163,7 +175,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         if (requestCode == CAMERA_PERMISSION_REQUEST) {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                cameraView.setCameraPermissionGranted();
+                opencvCameraView.setCameraPermissionGranted();
             } else {
                 Toast.makeText(this, "Camera permission required!", Toast.LENGTH_LONG).show();
                 finish();
@@ -204,6 +216,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
             runOnUiThread(() -> fpsText.setText(String.format("FPS: %.1f", fps)));
 
             // Call C++ edge detection if library is loaded
+            Mat processedFrame;
             if (EdgeDetector.isLibraryLoaded()) {
                 EdgeDetector.detectEdges(
                     rgba.getNativeObjAddr(),
@@ -212,36 +225,53 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
                     upperThreshold,
                     blurValue
                 );
-                return edges;
+                processedFrame = edges;
             } else {
                 // If native library not loaded, just return original frame
-                return rgba;
+                processedFrame = rgba;
             }
+            
+            // Update OpenGL ES texture with processed frame
+            if (cameraView != null && processedFrame != null) {
+                try {
+                    cameraView.updateFrame(processedFrame);
+                } catch (Exception e) {
+                    Log.e(TAG, "Error updating OpenGL frame: " + e.getMessage(), e);
+                }
+            }
+            
+            // Return null since we're handling rendering with OpenGL ES
+            return null;
         } catch (Exception e) {
             Log.e(TAG, "Error processing frame: " + e.getMessage(), e);
-            return rgba; // Return original frame if processing fails
+            return null; // Return null since we're handling rendering with OpenGL ES
         }
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        cameraView.enableView();
+        if (opencvCameraView != null) {
+            opencvCameraView.enableView();
+        }
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        if (cameraView != null) {
-            cameraView.disableView();
+        if (opencvCameraView != null) {
+            opencvCameraView.disableView();
         }
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        if (opencvCameraView != null) {
+            opencvCameraView.disableView();
+        }
         if (cameraView != null) {
-            cameraView.disableView();
+            cameraView.cleanup();
         }
     }
 }

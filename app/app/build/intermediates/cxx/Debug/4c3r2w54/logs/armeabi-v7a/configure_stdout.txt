@@ -1,0 +1,19 @@
+-- The C compiler identification is Clang 21.0.0
+-- The CXX compiler identification is Clang 21.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Users/ASUS/AppData/Local/Android/Sdk/ndk/29.0.14033849/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Users/ASUS/AppData/Local/Android/Sdk/ndk/29.0.14033849/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenCV: C:/OpenCV-android-sdk (found version "4.12.0") 
+-- OpenCV found: 1
+-- OpenCV version: 4.12.0
+-- Building for ABI: armeabi-v7a
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Elden ring dlc/clones/android-opencv-opengl-assignment/app/app/.cxx/Debug/4c3r2w54/armeabi-v7a

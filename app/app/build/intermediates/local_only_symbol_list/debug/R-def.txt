@@ -9,6 +9,7 @@ id lower_threshold_text
 id upper_threshold_bar
 id upper_threshold_text
 layout activity_main
+layout activity_main_fallback
 string app_name
 string blur
 string camera_permission_required
