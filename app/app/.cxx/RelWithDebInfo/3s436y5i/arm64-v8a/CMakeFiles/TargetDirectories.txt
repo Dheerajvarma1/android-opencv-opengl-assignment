@@ -1,0 +1,3 @@
+C:/Elden ring dlc/work/flam/app/.cxx/RelWithDebInfo/3s436y5i/arm64-v8a/CMakeFiles/edge_detection.dir
+C:/Elden ring dlc/work/flam/app/.cxx/RelWithDebInfo/3s436y5i/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Elden ring dlc/work/flam/app/.cxx/RelWithDebInfo/3s436y5i/arm64-v8a/CMakeFiles/rebuild_cache.dir

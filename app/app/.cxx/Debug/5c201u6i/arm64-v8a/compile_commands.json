@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Elden ring dlc/work/flam/app/.cxx/Debug/5c201u6i/arm64-v8a",
+  "command": "C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Users/ASUS/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dedge_detection_EXPORTS -isystem C:/OpenCV-android-sdk/sdk/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -fno-limit-debug-info  -fPIC -std=gnu++11 -o CMakeFiles\\edge_detection.dir\\edge_detection.cpp.o -c \"C:\\Elden ring dlc\\work\\flam\\app\\src\\main\\cpp\\edge_detection.cpp\"",
+  "file": "C:\\Elden ring dlc\\work\\flam\\app\\src\\main\\cpp\\edge_detection.cpp"
+}
+]

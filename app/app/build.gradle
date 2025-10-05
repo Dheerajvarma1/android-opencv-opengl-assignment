@@ -1,19 +1,30 @@
 plugins {
-    alias(libs.plugins.android.application)
+    id 'com.android.application'
 }
 
 android {
-    namespace 'com.example.app'
-    compileSdk 36
+    namespace 'com.edgedetection'
+    compileSdk 34
+    ndkVersion '29.0.14033849'
 
     defaultConfig {
-        applicationId "com.example.app"
+        applicationId "com.edgedetection"
         minSdk 24
-        targetSdk 36
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                cppFlags "-frtti -fexceptions"
+                abiFilters 'arm64-v8a', 'armeabi-v7a'
+                arguments "-DANDROID_STL=c++_shared"
+            }
+        }
+        
+        ndk {
+            abiFilters 'arm64-v8a', 'armeabi-v7a'
+        }
     }
 
     buildTypes {
@@ -22,21 +33,35 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    externalNativeBuild {
+        cmake {
+            path file('src/main/cpp/CMakeLists.txt')
+            version '3.22.1'
+        }
+    }
+
+    buildFeatures {
+        viewBinding true
     }
 }
 
 dependencies {
-
-    implementation libs.appcompat
-    implementation libs.material
-    implementation libs.activity
-    implementation libs.constraintlayout
-    implementation "androidx.core:core-splashscreen:1.0.1"  
-    testImplementation libs.junit
-    androidTestImplementation libs.ext.junit
-    androidTestImplementation libs.espresso.core
-    
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation project(':opencv')
 }
+
+// Workaround for JDK image transform issue
+configurations.all {
+    resolutionStrategy {
+        force 'com.android.tools.build:gradle:8.2.0'
+    }
+}
+

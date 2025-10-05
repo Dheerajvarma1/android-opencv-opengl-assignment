@@ -1,0 +1,16 @@
+R_DEF: Internal format may change without notice
+local
+id blur_bar
+id blur_text
+id camera_view
+id fps_text
+id lower_threshold_bar
+id lower_threshold_text
+id upper_threshold_bar
+id upper_threshold_text
+layout activity_main
+string app_name
+string blur
+string camera_permission_required
+string lower_threshold
+string upper_threshold

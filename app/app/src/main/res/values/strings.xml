@@ -1,3 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">app</string>
+    <string name="app_name">Edge Detection</string>
+    <string name="camera_permission_required">Camera permission is required</string>
+    <string name="lower_threshold">Lower Threshold</string>
+    <string name="upper_threshold">Upper Threshold</string>
+    <string name="blur">Blur</string>
 </resources>
+

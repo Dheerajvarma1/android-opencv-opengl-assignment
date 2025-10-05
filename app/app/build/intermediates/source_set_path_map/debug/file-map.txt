@@ -1,0 +1,35 @@
+com.edgedetection.app-pngs-0 C:\Elden ring dlc\work\flam\app\build\generated\res\pngs\debug
+com.edgedetection.app-resValues-1 C:\Elden ring dlc\work\flam\app\build\generated\res\resValues\debug
+com.edgedetection.app-packageDebugResources-2 C:\Elden ring dlc\work\flam\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.edgedetection.app-packageDebugResources-3 C:\Elden ring dlc\work\flam\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.edgedetection.app-merged_res-4 C:\Elden ring dlc\work\flam\app\build\intermediates\merged_res\debug
+com.edgedetection.app-debug-5 C:\Elden ring dlc\work\flam\app\src\debug\res
+com.edgedetection.app-main-6 C:\Elden ring dlc\work\flam\app\src\main\res
+com.edgedetection.app-packaged_res-7 C:\OpenCV-android-sdk\sdk\build\intermediates\packaged_res\debug
+com.edgedetection.app-lifecycle-livedata-core-2.6.1-8 C:\Users\ASUS\.gradle\caches\transforms-4\0d380555147b80b51751cf6bd8828956\transformed\lifecycle-livedata-core-2.6.1\res
+com.edgedetection.app-drawerlayout-1.1.1-9 C:\Users\ASUS\.gradle\caches\transforms-4\114c27a2e74e421f982e62217c92aef5\transformed\drawerlayout-1.1.1\res
+com.edgedetection.app-jetified-core-ktx-1.9.0-10 C:\Users\ASUS\.gradle\caches\transforms-4\12b2eb200dd9729fdcd574bbcff60573\transformed\jetified-core-ktx-1.9.0\res
+com.edgedetection.app-jetified-lifecycle-process-2.6.1-11 C:\Users\ASUS\.gradle\caches\transforms-4\16319bfea425ccb34cdee45574e85a2f\transformed\jetified-lifecycle-process-2.6.1\res
+com.edgedetection.app-core-runtime-2.2.0-12 C:\Users\ASUS\.gradle\caches\transforms-4\16cf50259928a7f303a00648d160a53a\transformed\core-runtime-2.2.0\res
+com.edgedetection.app-coordinatorlayout-1.1.0-13 C:\Users\ASUS\.gradle\caches\transforms-4\19f43ab90e72438112ff231769719d7f\transformed\coordinatorlayout-1.1.0\res
+com.edgedetection.app-jetified-emoji2-1.2.0-14 C:\Users\ASUS\.gradle\caches\transforms-4\1f92642ae243f896e0e65bfb826cd016\transformed\jetified-emoji2-1.2.0\res
+com.edgedetection.app-jetified-activity-1.8.0-15 C:\Users\ASUS\.gradle\caches\transforms-4\211ed3e0ad39cd58d4a61399f5101c07\transformed\jetified-activity-1.8.0\res
+com.edgedetection.app-jetified-annotation-experimental-1.3.0-16 C:\Users\ASUS\.gradle\caches\transforms-4\3cc5df5e11623a4b0fa1ec339df86d37\transformed\jetified-annotation-experimental-1.3.0\res
+com.edgedetection.app-recyclerview-1.1.0-17 C:\Users\ASUS\.gradle\caches\transforms-4\5079bf911dfd33c4befcca28a5d6c504\transformed\recyclerview-1.1.0\res
+com.edgedetection.app-material-1.11.0-18 C:\Users\ASUS\.gradle\caches\transforms-4\518aff9b5455e450b373c9594763223e\transformed\material-1.11.0\res
+com.edgedetection.app-core-1.9.0-19 C:\Users\ASUS\.gradle\caches\transforms-4\566acc714c8179f607f6e5bc825559b8\transformed\core-1.9.0\res
+com.edgedetection.app-constraintlayout-2.1.4-20 C:\Users\ASUS\.gradle\caches\transforms-4\6b233d9d4aa0ec43b2691cc95d25ea95\transformed\constraintlayout-2.1.4\res
+com.edgedetection.app-jetified-savedstate-1.2.1-21 C:\Users\ASUS\.gradle\caches\transforms-4\76c3db6aed5342d56bc60d71c8a33bee\transformed\jetified-savedstate-1.2.1\res
+com.edgedetection.app-jetified-emoji2-views-helper-1.2.0-22 C:\Users\ASUS\.gradle\caches\transforms-4\7e85ef6ad7f3fc1c8fa61c648aff51b2\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.edgedetection.app-jetified-profileinstaller-1.3.0-23 C:\Users\ASUS\.gradle\caches\transforms-4\7f959c22d7eb474bdd492053f1b9be09\transformed\jetified-profileinstaller-1.3.0\res
+com.edgedetection.app-jetified-startup-runtime-1.1.1-24 C:\Users\ASUS\.gradle\caches\transforms-4\81cba54d9898d4cfaa1906068ed54599\transformed\jetified-startup-runtime-1.1.1\res
+com.edgedetection.app-transition-1.2.0-25 C:\Users\ASUS\.gradle\caches\transforms-4\823d342e6879f2990958d1ccf1fe337e\transformed\transition-1.2.0\res
+com.edgedetection.app-lifecycle-runtime-2.6.1-26 C:\Users\ASUS\.gradle\caches\transforms-4\8e325f3c132075b3ee88278ee43bab0f\transformed\lifecycle-runtime-2.6.1\res
+com.edgedetection.app-fragment-1.3.6-27 C:\Users\ASUS\.gradle\caches\transforms-4\8e8d1b0f251ca760ec94bdb77fcbb2ed\transformed\fragment-1.3.6\res
+com.edgedetection.app-cardview-1.0.0-28 C:\Users\ASUS\.gradle\caches\transforms-4\93fe7cf6797acd1154e9f6965486953a\transformed\cardview-1.0.0\res
+com.edgedetection.app-lifecycle-viewmodel-2.6.1-29 C:\Users\ASUS\.gradle\caches\transforms-4\9695c95323afb568ed7a2515a5dd4616\transformed\lifecycle-viewmodel-2.6.1\res
+com.edgedetection.app-appcompat-1.6.1-30 C:\Users\ASUS\.gradle\caches\transforms-4\bc020576218432ec790f99842ad6708e\transformed\appcompat-1.6.1\res
+com.edgedetection.app-jetified-appcompat-resources-1.6.1-31 C:\Users\ASUS\.gradle\caches\transforms-4\c4f2e3883abe60a273e37b3691e88737\transformed\jetified-appcompat-resources-1.6.1\res
+com.edgedetection.app-lifecycle-livedata-2.6.1-32 C:\Users\ASUS\.gradle\caches\transforms-4\c8c32571d833eabb80ccffee3e7ed692\transformed\lifecycle-livedata-2.6.1\res
+com.edgedetection.app-jetified-viewpager2-1.0.0-33 C:\Users\ASUS\.gradle\caches\transforms-4\d1932d554f56d59c3b98609b2f2eb215\transformed\jetified-viewpager2-1.0.0\res
+com.edgedetection.app-jetified-lifecycle-viewmodel-savedstate-2.6.1-34 C:\Users\ASUS\.gradle\caches\transforms-4\f7cfe774256e602c47ade6cb5829c4b9\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\res

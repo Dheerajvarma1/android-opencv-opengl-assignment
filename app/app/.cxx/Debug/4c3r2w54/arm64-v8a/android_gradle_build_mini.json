@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Elden ring dlc\\work\\flam\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Elden ring dlc\\work\\flam\\app\\.cxx\\Debug\\4c3r2w54\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\ASUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Elden ring dlc\\work\\flam\\app\\.cxx\\Debug\\4c3r2w54\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "edge_detection::@6890427a1f51a3e7e1df": {
+      "artifactName": "edge_detection",
+      "abi": "arm64-v8a",
+      "output": "C:\\Elden ring dlc\\work\\flam\\app\\build\\intermediates\\cxx\\Debug\\4c3r2w54\\obj\\arm64-v8a\\libedge_detection.so",
+      "runtimeFiles": []
+    }
+  }
+}
