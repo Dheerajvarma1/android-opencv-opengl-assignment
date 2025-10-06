@@ -1,0 +1,88 @@
+<!-- Sample Frame Generator -->
+<!-- Open this file in a browser and right-click to save the generated image -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Frame Generator</title>
+    <style>
+        body { margin: 20px; font-family: Arial, sans-serif; }
+        canvas { border: 2px solid #ccc; margin: 10px 0; }
+        button { padding: 10px 20px; margin: 5px; background: #667eea; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h2>Android OpenCV Sample Frame Generator</h2>
+    <p>This generates a sample processed frame image for the web viewer.</p>
+    
+    <canvas id="canvas" width="640" height="480"></canvas>
+    <br>
+    <button onclick="generateFrame()">Generate Sample Frame</button>
+    <button onclick="downloadImage()">Download as JPG</button>
+    
+    <script>
+        function generateFrame() {
+            const canvas = document.getElementById('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            // Clear canvas
+            ctx.clearRect(0, 0, 640, 480);
+            
+            // Create gradient background
+            const gradient = ctx.createLinearGradient(0, 0, 640, 480);
+            gradient.addColorStop(0, '#667eea');
+            gradient.addColorStop(1, '#764ba2');
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, 640, 480);
+            
+            // Add geometric shapes to simulate processed features
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+            ctx.fillRect(100, 100, 200, 150);
+            
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.6)';
+            ctx.beginPath();
+            ctx.arc(400, 200, 80, 0, 2 * Math.PI);
+            ctx.fill();
+            
+            // Add some lines to simulate edge detection
+            ctx.strokeStyle = 'rgba(255, 255, 0, 0.8)';
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.moveTo(50, 300);
+            ctx.lineTo(200, 350);
+            ctx.lineTo(350, 280);
+            ctx.lineTo(500, 320);
+            ctx.stroke();
+            
+            // Add text overlay
+            ctx.fillStyle = 'white';
+            ctx.font = 'bold 24px Arial';
+            ctx.fillText('Android OpenCV', 150, 180);
+            ctx.fillText('Processed Frame', 150, 210);
+            
+            // Add timestamp and resolution info
+            ctx.font = '16px Arial';
+            ctx.fillText('Resolution: 640x480', 150, 240);
+            ctx.fillText('Timestamp: ' + new Date().toLocaleTimeString(), 150, 260);
+            
+            // Add some noise/dots to simulate processed data
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.6)';
+            for (let i = 0; i < 50; i++) {
+                const x = Math.random() * 640;
+                const y = Math.random() * 480;
+                ctx.fillRect(x, y, 2, 2);
+            }
+        }
+        
+        function downloadImage() {
+            const canvas = document.getElementById('canvas');
+            const link = document.createElement('a');
+            link.download = 'sample-frame.jpg';
+            link.href = canvas.toDataURL('image/jpeg', 0.8);
+            link.click();
+        }
+        
+        // Generate initial frame
+        generateFrame();
+    </script>
+</body>
+</html>

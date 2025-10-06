@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android OpenCV Web Viewer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light theme">
+        <span id="themeIcon">🌙</span>
+    </button>
+    <div class="container">
+        <header>
+            <h1>Android OpenCV Frame Viewer</h1>
+            <p>Web visualization for processed camera frames</p>
+        </header>
+
+        <main>
+            <div class="viewer-section">
+                <div class="image-container">
+                    <img id="frameImage" src="./assets/sample-frame.jpg" alt="Processed Frame" />
+                    <canvas id="frameCanvas" width="640" height="480"></canvas>
+                </div>
+                
+                <div class="controls">
+                    <button id="toggleView" class="btn">Switch to Canvas View</button>
+                    <button id="loadImage" class="btn">Load Sample Frame</button>
+                </div>
+            </div>
+
+            <div class="stats-section">
+                <h3>Frame Statistics</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-label">FPS:</span>
+                        <span id="fpsValue" class="stat-value">--</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Resolution:</span>
+                        <span id="resolutionValue" class="stat-value">--</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Processing Time:</span>
+                        <span id="processingTimeValue" class="stat-value">--</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Frame Count:</span>
+                        <span id="frameCountValue" class="stat-value">--</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overlay-section">
+                <h3>Overlay Information</h3>
+                <div id="overlayText" class="overlay-text">
+                    Sample processed frame from Android OpenCV application
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>TypeScript Web Viewer for Android OpenCV OpenGL Assignment</p>
+        </footer>
+    </div>
+
+    <script type="module" src="./src/main.ts"></script>
+</body>
+</html>

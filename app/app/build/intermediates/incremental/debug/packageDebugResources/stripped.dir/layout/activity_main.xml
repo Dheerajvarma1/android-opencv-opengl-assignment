@@ -84,6 +84,18 @@
 
     </LinearLayout>
 
+    <!-- FlamApp Logo -->
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:src="@mipmap/ic_launcher"
+        android:background="#AA000000"
+        android:padding="4dp" />
+
     <!-- Title -->
     <TextView
         android:layout_width="wrap_content"

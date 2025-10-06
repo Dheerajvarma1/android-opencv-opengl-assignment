@@ -15,6 +15,24 @@ A professional-grade real-time edge detection Android application featuring hard
 - **Dual-camera architecture** (OpenCV capture + OpenGL ES display)
 - **Professional-grade texture management**
 
+## Screenshot
+
+![Working App](https://github.com/user-attachments/assets/4ba5ad6f-cb3b-4aa5-9e4a-af8eb47e186f)
+
+*Real-time edge detection app running on Android with OpenGL ES 2.0 hardware acceleration*
+
+## Demo Video
+
+https://github.com/user-attachments/assets/e4a335b4-bb84-4c83-a3b4-8e060cc9c440
+
+*Watch the app in action - real-time edge detection with adjustable parameters*
+
+## Live Demo Website
+
+🌐 **[View Live Demo](https://edge-detection-website-miwe9bmq8-dheerajvarma1s-projects.vercel.app/)**
+
+*Interactive web showcase featuring multiple edge detection examples with different parameters and real-time FPS metrics*
+
 ## Architecture
 
 ```
@@ -39,26 +57,28 @@ Camera → OpenCV Processing → OpenGL ES 2.0 Rendering → Screen
 ## Project Structure
 
 ```
-app/
-├── src/main/
-│   ├── java/com/edgedetection/
-│   │   ├── MainActivity.java              # Main OpenGL ES activity
-│   │   ├── MainActivityFallback.java      # Fallback activity
-│   │   ├── EdgeDetector.java              # JNI bridge class
-│   │   └── opengl/
-│   │       ├── EdgeDetectionGLView.java    # Custom GLSurfaceView
-│   │       └── EdgeDetectionRenderer.java # OpenGL ES renderer
-│   ├── assets/shaders/
-│   │   ├── vertex_shader.glsl             # Vertex shader
-│   │   └── fragment_shader.glsl           # Fragment shader
-│   ├── cpp/
-│   │   ├── edge_detection.cpp             # C++ OpenCV code
-│   │   └── CMakeLists.txt                 # CMake configuration
-│   ├── jniLibs/                           # OpenCV native libraries
-│   └── res/                               # Android resources
-├── build.gradle                           # App module configuration
-└── AndroidManifest.xml                    # App manifest
-```
+android-opencv-opengl-assignment/
+├── app/                                   # Android Application
+│   ├── src/main/
+│   │   ├── java/com/edgedetection/
+│   │   │   ├── MainActivity.java              # Main OpenGL ES activity
+│   │   │   ├── MainActivityFallback.java      # Fallback activity
+│   │   │   ├── EdgeDetector.java              # JNI bridge class
+│   │   │   └── opengl/
+│   │   │       ├── EdgeDetectionGLView.java    # Custom GLSurfaceView
+│   │   │       └── EdgeDetectionRenderer.java # OpenGL ES renderer
+│   │   ├── assets/shaders/
+│   │   │   ├── vertex_shader.glsl             # Vertex shader
+│   │   │   └── fragment_shader.glsl           # Fragment shader
+│   │   ├── cpp/
+│   │   │   ├── edge_detection.cpp             # C++ OpenCV code
+│   │   │   └── CMakeLists.txt                 # CMake configuration
+│   │   ├── jniLibs/                           # OpenCV native libraries
+│   │   └── res/                               # Android resources
+│   ├── build.gradle                           # App module configuration
+│   └── AndroidManifest.xml                    # App manifest
+|
+|── web/
 
 ## How to Run
 
@@ -92,6 +112,11 @@ app/
    - **Blur**: Controls Gaussian blur intensity
    - **Lower Threshold**: Minimum edge strength  
    - **Upper Threshold**: Maximum edge strength
+
+   ![Parameter Controls](https://github.com/user-attachments/assets/8e4e1ec2-7a08-435c-a087-bf0b0427bd44)
+   
+   *Interactive parameter sliders for real-time edge detection tuning*
+
 4. **View edge detection** in real-time with GPU acceleration
 
 ## Technical Details
@@ -214,3 +239,145 @@ This project now features a **complete OpenGL ES 2.0 hardware-accelerated render
 ---
 
 **Built with Java, C++, OpenCV, OpenGL ES 2.0, and JNI**
+
+---
+
+# Web Viewer Component
+
+A TypeScript-based web viewer for displaying processed camera frames from the Android OpenCV OpenGL assignment.
+
+## Live Demo
+
+🌐 **[View Live Demo](https://edge-detection-website-miwe9bmq8-dheerajvarma1s-projects.vercel.app/)**
+
+*Interactive web showcase featuring multiple edge detection examples with different parameters and real-time FPS metrics*
+
+## Project Structure
+
+```
+android-opencv-opengl-assignment/
+├── app/     
+|
+|
+└── web/                                   # Web Viewer Component
+    ├── index.html                             # Main HTML page
+    ├── src/
+    │   ├── main.ts                           # TypeScript application logic
+    │   └── styles.css                        # CSS styling
+    ├── assets/
+    │   ├── sample-frame.jpg                  # Sample processed frame
+    │   └── README.md                         # Assets documentation
+    ├── package.json                          # Dependencies and scripts
+    ├── tsconfig.json                        # TypeScript configuration
+    └── vite.config.ts                     # Vite build configuration
+```
+
+## Web Viewer Features
+
+- **Image Display**: Load and display static processed frame images from Android app
+- **Canvas Rendering**: Toggle between `<img>` and `<canvas>` rendering modes
+- **Real-time Statistics**: Display FPS, lower count, Upper count, and Blur count
+- **Interactive UI**: Minimal but functional interface with toggle controls
+- **TypeScript**: Full type safety and modern JavaScript features
+- **Responsive Design**: Works on desktop 
+
+## Web Viewer Tech Stack
+
+- **TypeScript** - Static type safety and better code maintainability
+- **HTML5 & CSS3** - Modern web standards for structure and styling
+- **Vite** - Fast build tool and development server
+- **Canvas API** - For advanced image rendering and manipulation
+- **No Backend** - Pure client-side application
+
+## Web Viewer Setup
+
+1. **Navigate to web directory**
+   ```bash
+   cd web
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install next react react-dom
+   ```
+
+3. **Start Development Server**
+   ```bash
+   npm run dev
+   ```
+   This will start the Vite development server at `http://localhost:3000`
+
+4. **Build for Production**
+   ```bash
+   npm run build
+   ```
+   The built files will be in the `dist/` folder.
+
+## Web Viewer Usage
+
+1. **Open the web viewer** in your browser
+2. **Load sample frame** - The application will automatically load the sample frame
+3. **Toggle rendering modes** - Use the toggle button to switch between image and canvas rendering
+4. **View statistics** - Check real-time statistics in the stats panel
+5. **Add custom images** - Place processed frames from your Android app in the `assets/` directory
+
+## Web Viewer API
+
+The viewer exposes a global API for external interaction:
+
+```typescript
+// Access the viewer instance
+const viewer = window.openCVViewer;
+
+// Update frame statistics
+viewer.updateFrameStats({
+    fps: 30,
+    resolution: '640x480',
+    processingTime: 16.7,
+    frameCount: 1000
+});
+
+// Load a custom image
+viewer.loadCustomImage('./assets/my-frame.jpg');
+
+// Get current statistics
+const stats = viewer.getCurrentStats();
+```
+
+## Web Viewer Features Explained
+
+### Image Display Modes
+- **Image Mode**: Uses standard `<img>` element for simple display
+- **Canvas Mode**: Uses `<canvas>` element for advanced rendering and effects
+
+### Statistics Display
+- **FPS**: Frames per second (simulated for demo)
+- **Resolution**: Image dimensions in pixels
+- **Processing Time**: Time taken to process each frame
+- **Frame Count**: Total number of frames processed
+
+### Overlay Information
+Dynamic text overlay showing current status and image information.
+
+## Web Viewer Development
+
+### TypeScript Configuration
+The project uses strict TypeScript settings for better code quality:
+- Strict type checking enabled
+- No unused variables/parameters allowed
+- Modern ES2020 target with DOM support
+
+### Build Process
+- **Development**: `npm run dev` - Starts Vite dev server with hot reload
+- **Production**: `npm run build` - Compiles TypeScript and bundles for production
+- **Type Check**: `npm run type-check` - Validates TypeScript without emitting files
+
+## Browser Support
+- Chrome/Edge 88+
+- Firefox 85+
+- Safari 14+
+- Mobile browsers with ES2020 support
+
+---
+
+**Web Viewer Built with TypeScript, Vite, HTML5, and Canvas API**

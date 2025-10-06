@@ -10,6 +10,7 @@ id upper_threshold_bar
 id upper_threshold_text
 layout activity_main
 layout activity_main_fallback
+mipmap ic_launcher
 string app_name
 string blur
 string camera_permission_required
